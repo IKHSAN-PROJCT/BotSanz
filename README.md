@@ -7,4 +7,4 @@ git clone https://github.com/MR-JHONz/BotSanz
 
 cd BotSanz
 
-bash BotSanz.sh
+bash update.sh
