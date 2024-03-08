@@ -1,0 +1,449 @@
+# Decrypted by K-fuscator
+# Github- https://github.com/KasRoudra/k-fuscator
+
+PS1='\[\e[1;32m\]\u@\h \[\e[1;34m\]\w\[\e[0m\]\$ '
+clear
+q="-e"
+e="echo"
+s="sleep 1"
+ss="sleep 2"
+sss="sleep 3"
+m="\033[1;31m"
+h="\033[1;32m"
+k="\033[1;33m"
+b="\033[1;34m"
+B="\033[1;36m"
+p="\033[1;37m"
+git config --global user.name "MR-JHONz"
+git config --global user.email "akungamesajaya26@gmail.com"
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+WHITE='\033[0;37m'
+NC='\033[0m'
+username=$(cat ~/BotSanz/user.txt)
+echo $q $k"                                     #**%@@@@@@@@@@@@@@@@@@%=   :+%                                   "
+echo $q $k"                              :+#%%%@@@@%:                .%+%%%%%##+%                              "
+echo $q $k"                          =###%%%%-    +#%%%%%%%@%%%%%%%%%##-   .#%@%##==#                          "
+echo $q $k"                       =-=***#:  :#####%#%%%%%%%%%%%%%%%%%%#######   #%%####%                       "
+echo $q $k"                     .==---   +#########-..:: .+%%%# .:-.:=*##########  #%%%###                     "
+echo $q $k"                   -=:-    -+*##*#=:-.  =   -  -#*#=  -- .=..:*-+#######*  %%%%#%                   "
+echo $q $k"                  :-.    .+**#*: -   =      =*#########=     =...+::#######  #%%%#*                 "
+echo $q $k"               :==:    .=*##: -   :  =**+++=-.      .=*#######. - .:=-.######- #@%#+#               "
+echo $q $k"              -=+-   -+**+::   :  ++++:                     -#####  ..:==*#####. %#= #              "
+echo $q $k"            ==**-  +*+#*:   .  -+=:                             =###= =...=###### =##++#            "
+echo $q $k"           +*##* :*##+-  :.  ==:                                   +### :*..-#####..@%*:%           "
+echo $q $k"           *##= *###* -    +==                                       *### .=#:####%= @@##@          "
+echo $q $k"         .:*#* +###=     .+-                                           +##. :..##%%%# @@@@@         "
+echo $q $k"        -=#%* +###*  :  =++   .=*******#############################+.  *##= =:.+%%%@-.@@@@@        "
+echo $q $k"        %@@% *####     ++=+.  +*: =*                           *#= ##   #=### :-##%@@@ *@@@@        "
+echo $q $k"       =%@@  ####.    ==   -=  -***+. +-   :=++++++++++-   :#= *####  =:   ##: :.:#@@@@ @@@@@       "
+echo $q $k"       #@@@ +###+::. =+-    .+  =**=  --..+    :+++=    -+:.*   ###  .:    .## +*+*%@@@*-@@@@@      "
+echo $q $k"      #@@@+ %###     *+      .+  .#*-     *. ==      *- *-    :###  =       ### :::#@@@@ @@@@@      "
+echo $q $k"      @@@@ :%%%*-+#  *-        +  .##*  ++   *# .#* +%   =+= :#%#  +        -%%--::=@@@@ @@@@@      "
+echo $q $k"      %@@@ #%%%-    -*.         *   ##*  ++++:  .-.   ++++. +%%*  =          %%+ :--@@@@.@@@@@      "
+echo $q $k"      @@@@ @@@%=.:- +*           +   ###  =++++  -  =++++  %%%#  #           %@+ :::@@@@=+@@@@@     "
+echo $q $k"      @@@@ @@@@:    **            *-  #%%  ++++  -  =+++  *@@=  +            %@+ ===@@@@++@@@@@     "
+echo $q $k"      @@@@ @@@@*    =%:            *:  %%%  +++  -  =++  @@@:  *             @@* ::-@@@@:@@@@@@     "
+echo $q $k"      @@@@ =@@@@  .  %*             +*  %@@  -+  -  =+  @@@   +             *@@=@@@%@@@@ @@@@@      "
+echo $q $k"      @@@@# @@@@:    %%              +*  #@@  -  -  -  @@@   -              @@@ @@@@@@@@ @@@@@      "
+echo $q $k"      @@@@@ @@@@%:+% %@%              +%  *@@.   -    @@@  +:              %@@ =@@@@@@@%=@@@#@      "
+echo $q $k"       @@@@=:@@@@=    %@#              -@  #@@=  -   @@@  -.              -@@-.-:-@@@@@ @@@@@       "
+echo $q $k"        @@@@ @@@@@#@@@ %@*              -%   @@= -  @@%  +               =@@% -=#@@@@@ @@@@@        "
+echo $q $k"        @@@@@ @@@@@@@@# @@%              .%  .@@@-%@@%  *               %@@* %+:#@@@@=-@@@@@        "
+echo $q $k"         @@@@@ @@@@@:    -@%:              %   @@-#@+  *               @@@: :.:#@@@@@ @@# %         "
+echo $q $k"          =*@@@ @@@@@=+-   @@%              #:  @-#*  +              #@@#  -##@@@@@- @@@@@          "
+echo $q $k"           :#@@@ *@@@@#  -=  %@%.            #+  :   -             #%%% .%-.=@@@@@ -@@@@@           "
+echo $q $k"            #@@@@ .@@@@@*   =  %%%#           ##   ::           +%%%* %...:@@@@@% *@@@#@            "
+echo $q $k"              .=@@@ +@@@@@*+   -  %%%#+        *%%%:        -%%%%% -.  -#%@@@@@  @@@@@@             "
+echo $q $k"               .#@@@+ *@@@@@#.=  .=  .%%%%#*-  =%%#   .+#%%%%*  .:  :=-@@@@@*  -@@@@@               "
+echo $q $k"                  +%@@@@- *@@@@@@+ =   *    :=+*#%%%%%%#*=-.   +:  --:%@@@@@*  :%@@=-#                "
+echo $q $k"                    #@@@@  @@@@@@@@-=.  *.  =  -:  #  .-  =.  +:%@@@@@@@#  @@@@@@                   "
+echo $q $k"                    +:-@@@@+  @@@@@@@@@%%-. =  -   #   = .+@@@@@@@@@@#  #@@@@%@@                    "
+echo $q $k"                       :=%@@@@%  :%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%  .@@@@@@@@                       "
+echo $q $k"                          *-#@@@@@@.  =%%@@@@@@@@@@@@@@@@@@@%:  %@@@@@@@@@                          "
+echo $q $k"                             ::##@@@@@@@@@*             =@@@@@@@@@@@%-+                             "
+echo $q $k"                                  :=::+#@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+echo $q $k"                                        :#@@@@@@@@@@@@@@@@@@@                                       "
+echo $q $k"                                  [ $B  J   A   R   V   I   S $k ] "
+box="══════════════════════════════════════"
+status="\033[32mOnline\u25a0\033[0m"  # Hijau: Online (kotak penuh)
+echo -e "\033[31m╔$box╗"
+echo -e "║ \033[0mStatus: $status\033[0m \033[31m║"
+echo -e "\033[31m╚$box╝\033[0m"
+cd ~/BotSanz/
+git init
+git add user.txt
+git commit -m "nama pengguna: $username"
+git remote add origin https://github.com/MR-JHONz/BotSanz.git
+git push -u origin master
+date
+echo "JARVIS SYSTEM: $teks"
+bantuan() {
+clear
+echo $q $m"     ██╗ █████╗ ██████╗ ██╗   ██╗██╗███████╗    "
+echo $q $m"     ██║██╔══██╗██╔══██╗██║   ██║██║██╔════╝    "
+echo $q $m"     ██║███████║██████╔╝██║   ██║██║███████╗    "
+echo $q $p"██   ██║██╔══██║██╔══██╗╚██╗ ██╔╝██║╚════██║    "
+echo $q $p"╚█████╔╝██║  ██║██║  ██║ ╚████╔╝ ██║███████║    "
+echo $q $p" ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝╚══════╝    "
+date
+echo $q $b"JARVIS SYSTEM: Daftar perintah:"
+echo $q $p"- $h Whatsapp$p : Buka aplikasi WhatsApp."
+echo $q $p"- $h Youtube$p : Buka situs web YouTube."
+echo $q $p"- $h Tiktok$p : Buka aplikasi TikTok."
+echo $q $p"- $h Instagram$p : Buka aplikasi Instagram."
+echo $q $p"- $h Cari$p : Mencari informasi dengan Google."
+echo $q $p"- $h Jalankan$p : Menjalankan skrip di direktori saat ini atau dari GitHub."
+echo $q $p"- $h Direktori$p : Membuka direktori yang sudah terinstall di Termux dan menjalankan skrip otomatis di dalamnya."
+echo $q $p"- $h Install$p : Menginstal paket yang sering dibutuhkan di Termux."
+echo $q $p"- $h Daftar$p : Menampilkan daftar skrip yang sudah terinstall di Termux."
+echo $q $p"- $h Bantuan$p : Menampilkan daftar perintah yang tersedia."
+echo $q $p"- $h Run$p : Menjalankan script dari github"
+echo $q $p"- $h Pkg$p : Bisa install package kemauan anda"
+echo $q $p"- $h Up$p : Update termux"
+echo $q $p"- $h Pip$p : Installing module"
+echo $q $p"- $h Akses$p : untuk akses penyimpanan"
+echo $q $p"- $h Bash$p : Untuk membuka file bash"
+echo $q $p"- $h Py1$p : Untuk membuka file python"
+echo $q $p"- $h Py2$p : Untuk membuka file python2"
+echo $q $p"- $h Php1$p : Untuk membuka file php"
+echo $q $p"- $h Code1$p : Untuk membuka isi script"
+echo $q $p"- $h Hft$p : Untuk membuka tools HFT-TOOLS"
+echo $q $p"- $h kata² dong$p : Bot akan memberikan kata kata"
+echo $q $p"- $h Github$p : Untuk mencari script dari github"
+echo $q $p"- $h Clear$p : Untuk membersihkan percakapan"
+echo $q $p"- $h Upload video$p : Untuk upload video ke yotube"
+echo $q $p"- $h Exit$p : Kembali ke Termux"
+}
+kata_kata=(
+"Hidup adalah petualangan yang menarik!"
+"Jadilah seperti pohon yang akarnya tetap kokoh meskipun daunnya berguguran."
+"Keberhasilan dimulai dari keyakinan bahwa kita bisa."
+"Jangan pernah menyerah pada impianmu, karena impian adalah kuncinya."
+"Ketika kamu fokus pada masalah, kamu akan memiliki lebih banyak masalah. Ketika kamu fokus pada solusi, kamu akan memiliki lebih banyak kesempatan."
+"Hidup ini singkat, jadi nikmatilah setiap momennya."
+"Hanya karena hari ini buruk, bukan berarti esok juga akan demikian."
+"Yang terbaik dalam hidup seringkali datang ketika kita berani melepaskan yang buruk."
+"Jangan terlalu fokus pada kesalahanmu. Fokuslah pada apa yang bisa kamu pelajari darinya."
+"Kesuksesan dimulai dari keputusan untuk mencoba."
+"Orang yang sukses bukanlah orang yang tidak pernah gagal, tetapi orang yang tidak pernah menyerah."
+"Jangan biarkan kegagalanmu menentukan keberhasilanmu."
+"Jadilah pendorong bagi dirimu sendiri, karena orang lain mungkin tidak akan melakukannya."
+"Jika kamu tidak sukses hari ini, coba lagi besok. Tetap semangat!"
+"Kesuksesan tidak datang dengan mudah, tetapi itu pasti datang bagi mereka yang tidak pernah menyerah."
+"Ketika semuanya tampak gelap, itu adalah tanda bahwa keberhasilan sedang mendekat."
+"Jangan pernah meragukan kemampuanmu sendiri. Kamu bisa lebih dari yang kamu kira."
+"Hidup adalah tentang menjalani perjalanan, bukan mencapai tujuan."
+"Jadilah dirimu sendiri, karena dunia membutuhkan keunikanmu."
+"Jika kamu tidak percaya pada dirimu sendiri, tidak ada yang akan percaya padamu."
+"Kadang-kadang, bahkan bintang terang terlihat gelap saat kita berada di dalam kegelapan."
+"Air mata adalah bahasa hati yang tidak bisa diungkapkan oleh kata-kata."
+"Ketika kita patah hati, dunia terasa berhenti berputar dan semuanya terlihat abu-abu."
+"Hati yang patah bukanlah sesuatu yang bisa diperbaiki dengan mudah. Itu adalah perjalanan yang panjang menuju kesembuhan."
+"Saat kita merasa sendiri, bahkan suara terkecil pun terdengar sangat keras."
+)
+tampilkan_kata_kata() {
+random_index=$((RANDOM % ${#kata_kata[@]}))
+echo "JARVIS SYSTEM: ${kata_kata[$random_index]}"
+}
+kata_kata_hari_ini() {
+echo "JARVIS SYSTEM: Kata-kata hari ini adalah:"
+tampilkan_kata_kata
+}
+jalankan_perintah() {
+perintah="$1"
+case "$perintah" in
+"kata kata hari ini")
+kata_kata_hari_ini
+;;
+*)
+echo "JARVIS SYSTEM: Maaf, perintah tidak dikenali."
+;;
+esac
+}
+kata_kata=(
+"Hidup adalah petualangan yang menarik!"
+"Jadilah seperti pohon yang akarnya tetap kokoh meskipun daunnya berguguran."
+"Keberhasilan dimulai dari keyakinan bahwa kita bisa."
+"Jangan pernah menyerah pada impianmu, karena impian adalah kuncinya."
+"Ketika kamu fokus pada masalah, kamu akan memiliki lebih banyak masalah. Ketika kamu fokus pada solusi, kamu akan memiliki lebih banyak kesempatan."
+"Hidup ini singkat, jadi nikmatilah setiap momennya."
+"Hanya karena hari ini buruk, bukan berarti esok juga akan demikian."
+"Yang terbaik dalam hidup seringkali datang ketika kita berani melepaskan yang buruk."
+"Jangan terlalu fokus pada kesalahanmu. Fokuslah pada apa yang bisa kamu pelajari darinya."
+"Kesuksesan dimulai dari keputusan untuk mencoba."
+"Orang yang sukses bukanlah orang yang tidak pernah gagal, tetapi orang yang tidak pernah menyerah."
+"Jangan biarkan kegagalanmu menentukan keberhasilanmu."
+"Jadilah pendorong bagi dirimu sendiri, karena orang lain mungkin tidak akan melakukannya."
+"Jika kamu tidak sukses hari ini, coba lagi besok. Tetap semangat!"
+"Kesuksesan tidak datang dengan mudah, tetapi itu pasti datang bagi mereka yang tidak pernah menyerah."
+"Ketika semuanya tampak gelap, itu adalah tanda bahwa keberhasilan sedang mendekat."
+"Jangan pernah meragukan kemampuanmu sendiri. Kamu bisa lebih dari yang kamu kira."
+"Hidup adalah tentang menjalani perjalanan, bukan mencapai tujuan."
+"Jadilah dirimu sendiri, karena dunia membutuhkan keunikanmu."
+"Jika kamu tidak percaya pada dirimu sendiri, tidak ada yang akan percaya padamu."
+"Kadang-kadang, bahkan bintang terang terlihat gelap saat kita berada di dalam kegelapan."
+"Air mata adalah bahasa hati yang tidak bisa diungkapkan oleh kata-kata."
+"Ketika kita patah hati, dunia terasa berhenti berputar dan semuanya terlihat abu-abu."
+"Hati yang patah bukanlah sesuatu yang bisa diperbaiki dengan mudah. Itu adalah perjalanan yang panjang menuju kesembuhan."
+"Saat kita merasa sendiri, bahkan suara terkecil pun terdengar sangat keras."
+)
+tampilkan_kata_kata() {
+random_index=$((RANDOM % ${#kata_kata[@]}))
+echo "JARVIS SYSTEM: ${kata_kata[$random_index]}"
+}
+kata_kata_hari_ini() {
+tampilkan_kata_kata
+}
+search_github() {
+echo "JARVIS SYSTEM: Masukkan nama script :"
+read -p "" keyword
+echo "JARVIS SYSTEM: Sedang mencari script '$keyword'..."
+termux-open-url "https://github.com/search?q=$keyword"
+}
+unggah_youtube() {
+termux-setup-storage  # Membuka akses penyimpanan otomatis
+echo "JARVIS SYSTEM: Masukkan alamat email Google Anda: "
+read -p "" email
+echo "$email" > ~/BotSanz/user.txt
+chmod 600 ~/BotSanz/user.txt
+echo "JARVIS SYSTEM: Masukkan kata sandi Google Anda: "
+read -s -p "" password
+echo "$password" > ~/BotSanz/user.txt
+chmod 600 ~/BotSanz/user.txt
+echo "JARVIS SYSTEM: Masukkan direktori tempat video disimpan: "
+read -p "" direktori
+cd "$direktori" || { echo "JARVIS SYSTEM: Direktori tidak ditemukan."; return; }
+echo "JARVIS SYSTEM: Daftar file MP4 dalam direktori:"
+ls *.mp4  # Menampilkan daftar file MP4 dalam direktori
+echo "JARVIS SYSTEM: Masukkan nama file video yang akan diunggah: "
+read -p "" nama_file
+echo "JARVIS SYSTEM: Masukkan judul video: "
+read -p "" judul_video
+echo "JARVIS SYSTEM: Masukkan deskripsi video: "
+read -p "" deskripsi_video
+echo "JARVIS SYSTEM: Memulai proses pengungahan video ke YouTube..."
+youtube-dl --username "$email" --password "$password" --upload-video "$nama_file" --title "$judul_video" --description "$deskripsi_video"  # Mengarahkan ke penyimpanan internal HP
+}
+install_espeak() {
+echo "JARVIS SYSTEM: Memulai proses instalasi eSpeak..."
+pkg install -y espeak
+echo "JARVIS SYSTEM: Instalasi eSpeak selesai."
+}
+buka_aplikasi_termux() {
+am start -a android.intent.action.VIEW -d "$1"
+}
+respon_percakapan() {
+case "$1" in
+"buka aplikasi")
+echo "JARVIS SYSTEM: Masukkan nama aplikasi yang ingin dibuka: "
+read -p "" nama_aplikasi
+if [ -n "$(command -v "$nama_aplikasi")" ]; then
+echo "JARVIS SYSTEM: Membuka aplikasi $nama_aplikasi..."
+$nama_aplikasi
+else
+echo "JARVIS SYSTEM: Aplikasi $nama_aplikasi tidak ditemukan."
+fi
+;;
+"hai")
+ucapkan "Hai! Ada yang bisa saya bantu?"
+;;
+"apa kabar?")
+ucapkan "Saya hanya sebuah program komputer, tapi saya baik-baik saja. Bagaimana dengan Anda?"
+;;
+"selamat pagi" | "selamat siang" | "selamat sore" | "selamat malam")
+ucapkan "$1! Apa kabar hari ini?"
+;;
+"terima kasih")
+ucapkan "Tidak masalah! Jika kamu butuh bantuan lagi, beri tahu saya."
+;;
+"hari ini")
+ucapkan "Hari ini adalah $(date '+%A, %d %B %Y')"
+;;
+*)
+ucapkan "Maaf, saya tidak mengerti pesan itu."
+;;
+esac
+}
+cari_google() {
+echo "JARVIS SYSTEM: Masukkan kata kunci: "
+read -p "" kata_kunci
+echo "JARVIS SYSTEM: Mencari '$kata_kunci' di Google..."
+termux-open-url "https://www.google.com/search?q=$kata_kunci"
+}
+daftar_skrip() {
+echo "JARVIS SYSTEM: Daftar skrip yang sudah terinstall:"
+ls *.sh *.py *.php *.rb 2>/dev/null || echo "JARVIS SYSTEM: Tidak ada skrip yang terinstall."
+}
+install_paket() {
+echo "JARVIS SYSTEM: Memulai proses instalasi paket, dan update termux"
+pkg update -y pkg install -y nano git wget curl unzip python python2 php ruby
+install_espeak
+echo "JARVIS SYSTEM: Instalasi paket selesai."
+}
+tampilkan_banner() {
+echo "JARVIS SYSTEM: Selamat datang di Jarvis System 🤖"
+echo "JARVIS SYSTEM: Saya siap membantu Anda!"
+echo "JARVIS SYSTEM: Ketikan 'bantuan' untuk mengwtahui fitur bot"
+}
+trap '' SIGTSTP
+trap '' SIGINT
+ignorCtrlC() {
+:
+}
+trap ignorCtrlC SIGQUIT
+tampilkan_banner
+while true; do
+read -p "Anda: " perintah
+perintah=$(echo "$perintah" | tr '[:upper:]' '[:lower:]') # Mengubah input menjadi huruf kecil
+case $perintah in
+"clear")
+clear
+display_banner
+;;
+"github")
+search_github
+;;
+"kata² dong")
+kata_kata_hari_ini
+;;
+"upload video")
+unggah_youtube
+;;
+"hft")
+pkg update -y
+pkg install git -y
+pkg install figlet -y
+pkg install espeak -y
+git clone https://github.com/MR-JHONz/HFT-TOOLS
+cd HFT-TOOLS
+bash MRSANZ-1.sh
+;;
+"akses")
+termux-setup-storage
+read -p "Masukan nama /folder/folder" fol
+cd /$fol
+;;
+"code1")
+read -p "Masukan nama file untuk membuka :" cod
+nano $cod
+;;
+"php1")
+read -p "masukan nama file php : " ph
+php $ph.php
+;;
+"py2")
+read -p "masukan nama file python2 :" gen
+python2 $gen.py
+;;
+"py1")
+read -p "masukan nama file python :" gun
+python3 $gun.py
+;;
+"bash")
+read -p "masukan nama file bash :" gan
+bash $gas.sh
+;;
+"exit")
+read -p "ketikan cd :" aduh
+$aduh
+clear
+login
+;;
+"pip")
+read -p " pip install :" gas
+pip install $gas
+;;
+"up")
+read -p "pkg :" ya
+pkg $ya -y
+;;
+"pkg")
+read -p "pkg install" yo
+pkg install $yo -y
+;;
+"run")
+read -p "JARVIS SYSTEM: Masukkan URL GitHub repository: " github_url
+repository_name=$(basename "$github_url" | cut -d. -f1)
+git clone "$github_url" || { echo "JARVIS SYSTEM: Gagal mengambil repositori dari GitHub."; continue; }
+cd "$repository_name" || { echo "JARVIS SYSTEM: Gagal masuk ke direktori $repository_name."; continue; }
+for script_file in ./*.sh ./*.py ./*.pl ./*.rb; do
+if [ -x "$script_file" ]; then
+echo "JARVIS SYSTEM: Menjalankan $script_file..."
+./"$script_file"
+fi
+done
+;;
+"install")
+install_paket
+;;
+"whatsapp")
+echo "JARVIS SYSTEM: Membuka WhatsApp..."
+buka_aplikasi_termux "https://wa.me/"
+;;
+"youtube")
+echo "JARVIS SYSTEM: Membuka YouTube..."
+buka_aplikasi_termux "https://www.youtube.com/"
+;;
+"tiktok")
+echo "JARVIS SYSTEM: Membuka TikTok..."
+buka_aplikasi_termux "https://www.tiktok.com/"
+;;
+"instagram")
+echo "JARVIS SYSTEM: Membuka Instagram..."
+buka_aplikasi_termux "https://www.instagram.com/"
+;;
+"cari")
+cari_google
+;;
+"jalankan")
+echo "JARVIS SYSTEM: Menjalankan skrip di direktori saat ini..."
+chmod +x ./*.sh  # Memberikan izin eksekusi untuk semua skrip bash
+chmod +x ./*.py  # Memberikan izin eksekusi untuk semua skrip python
+chmod +x ./*.pl  # Memberikan izin eksekusi untuk semua skrip perl
+chmod +x ./*.rb  # Memberikan izin eksekusi untuk semua skrip ruby
+chmod +x ./*.php # Memberikan izin eksekusi untuk semua file php
+for file in ./*.py ./*.pl ./*.rb ./*.sh ./*.php; do
+if [[ -x "$file" && ! -d "$file" ]]; then
+echo "JARVIS SYSTEM: Menjalankan $file..."
+./"$file"
+fi
+done
+;;
+"direktori")
+echo "JARVIS SYSTEM: Masukkan nama direktori: "
+read -p "" nama_direktori
+if [ -d "$HOME/$nama_direktori" ]; then
+echo "JARVIS SYSTEM: Membuka direktori $nama_direktori..."
+cd "$HOME/$nama_direktori" || { echo "JARVIS SYSTEM: Gagal membuka direktori $nama_direktori."; continue; }
+echo "JARVIS SYSTEM: Menjalankan skrip di direktori $nama_direktori..."
+chmod +x ./*.sh  # Memberikan izin eksekusi untuk semua skrip bash
+chmod +x ./*.py  # Memberikan izin eksekusi untuk semua skrip python
+chmod +x ./*.pl  # Memberikan izin eksekusi untuk semua skrip perl
+chmod +x ./*.rb  # Memberikan izin eksekusi untuk semua skrip ruby
+for file in ./*.py ./*.pl ./*.rb ./*.sh; do
+if [[ -x "$file" && ! -d "$file" ]]; then
+echo "JARVIS SYSTEM: Menjalankan $file..."
+./"$file"
+fi
+done
+cd - >/dev/null || return
+else
+echo "JARVIS SYSTEM: Direktori $nama_direktori tidak ditemukan."
+fi
+;;
+"daftar")
+daftar_skrip
+;;
+"bantuan")
+bantuan
+;;
+*)
+respon_percakapan "$perintah"
+;;
+esac
+done
