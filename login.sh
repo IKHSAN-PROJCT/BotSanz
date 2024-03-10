@@ -1,58 +1,6 @@
-#!/bin/bash
+# Encrypted by K-fuscator
+# Github- https://github.com/KasRoudra/k-fuscator
 
-# Fungsi untuk menampilkan pesan login
-tampilkan_login() {
-    clear
-    echo "==================================="
-    echo "          LOGIN DIBUTUHKAN         "
-    echo "==================================="
-    echo ""
-}
-#!/bin/bash
-
-# Deklarasi fungsi yang tidak akan ditampilkan
-declare -f bukapw > /dev/null
-declare -f verifikasi_kata_sandi > /dev/null
-
-# Fungsi untuk mendekripsi kata sandi
-bukapw() {
-    private_key="private_key.pem"
-    encrypted_password="encrypted_password.bin"
-    password=$(openssl rsautl -decrypt -inkey $private_key -in $encrypted_password)
-    echo "Password terenkripsi: $password"
-}
-
-# Fungsi untuk memeriksa kata sandi sebelum login
-verifikasi_kata_sandi() {
-    local input_password
-    local percobaan=0
-
-    while [ $percobaan -lt 3 ]; do
-        read -s -p "Masukkan kata sandi: " input_password
-        echo ""
-
-        if [ "$input_password" == "$password" ]; then
-            echo "Login berhasil!"
-            touch ~/.login_berhasil
-            return 0
-        else
-            ((percobaan++))
-            if [ $percobaan -eq 3 ]; then
-                echo "Kamu sudah melebihi batas percobaan."
-                xdg-open "https://wa.me/683151697416"
-                exit 2
-            fi
-            echo "Kata sandi salah! Silakan coba lagi. ($percobaan dari 3)"
-        fi
-    done
-}
-
-# Memeriksa apakah pengguna sudah login sebelumnya
-if [ ! -f ~/.login_berhasil ]; then
-    verifikasi_kata_sandi
-fi
-
-# Menjalankan skrip BotSanz.sh setelah berhasil login
-bash BotSanz.sh
-
-
+z="
+";BCz='an -';WBz='te_k';EDz='xdg-';aCz='berh';RDz=' sal';NBz='pens';wz='key=';Tz='}';UBz='y $p';QEz='f ~/';kz='null';Sz=' ""';XCz='n';QBz='l -d';WEz='ind ';Rz=' "';bDz='desk';pCz=' $pe';Gz='r';oCz='+))';pDz='elah';nz='pw >';Zz='/dev';YEz='ogin';BEz=' "Ha';BBz='.pem';RBz='ecry';Bz='ilka';az='/nul';ez='ikas';SDz='ah! ';CEz='nya ';UCz='= "$';xDz='an k';tBz='rcob';Nz='LOGI';vBz='0';Az='tamp';Lz=' "  ';EBz='ypte';dEz=' +3)';WDz='i. (';jCz='retu';aDz='done';JEz='elak';pBz='loca';mCz='((pe';SBz='pt -';ODz=' 2';ZDz='3)"';fz='i_ka';yCz='i ba';KCz=' kat';TCz='d" =';cz='-f v';kEz='.sh';mDz='"pem';lDz=' == ';VDz=' lag';YCz=' "Lo';UEz='i';rCz='-eq ';cDz='rips';gCz='in_b';wCz=' mel';rDz='tur ';yBz='$per';dCz='touc';bEz='l -m';YDz='ari ';hEz='bash';gEz='rm -';nDz='buat';EEz='uat ';MBz='=$(o';ABz='_key';aBz=' "Pa';KEz='ukan';qCz='aan ';bBz='rd t';uBz='aan=';hz='andi';iz=' > /';xCz='ebih';hBz='d"';cEz='time';VCz='" ];';nCz='aan+';eCz='h ~/';Iz=' "==';Wz='-f b';vDz='an g';VBz='riva';hDz='tpw(';JBz='in"';Cz='n_lo';kBz='si_k';mBz='sand';SEz=']; t';KBz='pass';ZBz='rd)';Dz='gin(';dz='erif';xz='"pri';Yz='w > ';sCz='3 ];';bz='l';yDz='ata ';cCz='!"';JDz='.me/';lCz='else';uz='priv';PEz=' ! -';Ez=') {';qDz=' dia';jEz='Sanz';GDz=' "ht';nBz='i() ';FDz='open';kCz='rn 0';dDz='() {';XDz='an d';Mz='    ';sz='pw()';fDz='i: $';LBz='word';CCz='lt 3';wBz='whil';ACz='coba';mz='eset';FEz='bot ';jDz='whoa';qz='ll';fEz='tpw';REz='sil ';MCz='ndi:';vCz='udah';ECz='do';oDz='_bot';CBz='"';GBz='sswo';iEz=' Bot';qBz='l in';CDz='obaa';vz='ate_';XEz='~/.l';Pz='BUTU';SCz=' "$i';VEz=' $(f';KDz='6831';fCz='.log';gDz='rese';BDz='perc';sBz='l pe';wDz='unak';Qz='HKAN';TBz='inke';iDz=' "$(';Kz='="';WCz=' the';Jz='====';rBz='put_';GEz='yang';hCz='erha';ZEz='_ber';YBz='in $';TDz='Sila';gz='ta_s';uCz='mu s';UDz='kan ';MDz='7416';HCz='-p "';gBz='swor';DBz='encr';bCz='asil';OCz='nput';NDz='exit';LDz='5169';tCz=' "Ka';Xz='ukap';FBz='d_pa';fBz='$pas';GCz=' -s ';HBz='rd="';sDz='ulan';jBz='fika';DDz='n."';XBz='ey -';uDz='ilak';ICz='Masu';yz='vate';ZCz='gin ';dBz='krip';xBz='e [ ';DEz='pemb';rz='buka';IDz='//wa';pz='v/nu';JCz='kkan';DCz=' ]; ';LCz='a sa';NEz='assw';oz=' /de';cBz='eren';iCz='sil';RCz='if [';OBz='sl r';Uz='decl';IEz='at m';FCz='read';AEz='ru."';PCz='_pas';ADz='tas ';lBz='ata_';lz='-f r';eEz='then';PDz='fi';TEz='hen';iBz='veri';tDz='g. S';MEz='et p';IBz='rd.b';NCz=' " i';tz=' {';oBz='{';HEz=' dap';Vz='are ';HDz='tps:';Fz='clea';OEz='ord.';Oz='N DI';jz='dev/';QDz='ta s';kDz='mi)"';Hz='echo';eBz='si: ';QCz='d';LEz=' res';aEz='hasi';PBz='saut';eDz=' ter';
+eval "$Az$Bz$Cz$Dz$Ez$z$Fz$Gz$z$Hz$Iz$Jz$Jz$Jz$Jz$Jz$Jz$Jz$Jz$Kz$z$Hz$Lz$Mz$Mz$Nz$Oz$Pz$Qz$Mz$Mz$Rz$z$Hz$Iz$Jz$Jz$Jz$Jz$Jz$Jz$Jz$Jz$Kz$z$Hz$Sz$z$Tz$z$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$z$Uz$Vz$cz$dz$ez$fz$gz$hz$iz$jz$kz$z$Uz$Vz$lz$mz$nz$oz$pz$qz$z$rz$sz$tz$z$uz$vz$wz$xz$yz$ABz$BBz$CBz$z$DBz$EBz$FBz$GBz$HBz$DBz$EBz$FBz$GBz$IBz$JBz$z$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$DBz$EBz$FBz$GBz$ZBz$z$Hz$aBz$GBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$z$Tz$z$iBz$jBz$kBz$lBz$mBz$nBz$oBz$z$pBz$qBz$rBz$KBz$LBz$z$pBz$sBz$tBz$uBz$vBz$z$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$z$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$gBz$QCz$z$Hz$Sz$z$RCz$SCz$OCz$PCz$gBz$TCz$UCz$KBz$LBz$VCz$WCz$XCz$z$Hz$YCz$ZCz$aCz$bCz$cCz$z$dCz$eCz$fCz$gCz$hCz$iCz$z$jCz$kCz$z$lCz$z$mCz$tBz$nCz$oCz$z$RCz$pCz$tBz$qCz$rCz$sCz$WCz$XCz$z$Hz$tCz$uCz$vCz$wCz$xCz$yCz$ADz$BDz$CDz$DDz$z$EDz$FDz$GDz$HDz$IDz$JDz$KDz$LDz$MDz$CBz$z$NDz$ODz$z$PDz$z$Hz$tCz$QDz$hz$RDz$SDz$TDz$UDz$ACz$VDz$WDz$yBz$ACz$XDz$YDz$ZDz$z$PDz$z$aDz$z$Tz$z$bDz$cDz$fz$gz$hz$dDz$z$Hz$tCz$QDz$hz$eDz$bDz$cDz$fDz$KBz$LBz$CBz$z$Tz$z$gDz$hDz$Ez$z$bDz$cDz$fz$gz$hz$z$RCz$iDz$jDz$kDz$lDz$mDz$nDz$oDz$VCz$WCz$XCz$z$Hz$aBz$GBz$bBz$pDz$qDz$rDz$sDz$tDz$uDz$vDz$wDz$xDz$yDz$mBz$yCz$AEz$z$lCz$z$Hz$BEz$CEz$DEz$EEz$FEz$GEz$HEz$IEz$JEz$KEz$LEz$MEz$NEz$OEz$CBz$z$PDz$z$Tz$z$RCz$PEz$QEz$fCz$gCz$hCz$REz$SEz$TEz$z$iBz$jBz$kBz$lBz$mBz$UEz$z$PDz$z$RCz$VEz$WEz$XEz$YEz$ZEz$aEz$bEz$cEz$dEz$DCz$eEz$z$gDz$fEz$z$gEz$QEz$fCz$gCz$hCz$iCz$z$PDz$z$hEz$iEz$jEz$kEz"
